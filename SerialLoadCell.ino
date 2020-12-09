@@ -3,8 +3,8 @@
 */
 
 // These constants won't change. They're used to give names to the pins used:
-const int analogInPin[2] = {A1, A3};  // Analog input pin that the potentiometer is attached to
-//const int digitalInPin = 2; // Digital input to read current Motor-Direction (HIGH == Down, LOW == Up)
+const int analogInPin[2] = {A1, A2};  // Analog input pin that the potentiometer is attached to
+const int digitalInPin = 2; // Digital input to read current Motor-Direction (HIGH == Down, LOW == Up)
 const unsigned int frame_ms = 1;  // Determining the Samplerate
 
 int sensorValue[2] = {0,0};        // value read from the pot
