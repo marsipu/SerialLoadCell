@@ -1,5 +1,6 @@
 /*
-  Read the input of two load-cells and print them with the current motor-direction and the time in milliseconds
+  Read the input of two load-cells and print them with the current motor-direction and the time in milliseconds.
+  Major contribrutions from Frieder Ferlemann.
 */
 
 // These constants won't change. They're used to give names to the pins used:
